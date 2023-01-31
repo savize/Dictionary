@@ -1,7 +1,7 @@
 import json
 from difflib import get_close_matches
 
-data = json.load(open("projects/data.json"))
+data = json.load(open("data.json"))
 
 while True:
     def dictionary(w):
